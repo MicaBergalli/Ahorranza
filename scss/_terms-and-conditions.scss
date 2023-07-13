@@ -1,0 +1,15 @@
+@import "_vars";
+
+.texto-azul {
+  color: $azul;
+  font-size: $fs-m;
+}
+
+a {
+  text-decoration: none;
+  color: $negro;
+}
+
+.sobre {
+  font-size: $fs-l;
+}

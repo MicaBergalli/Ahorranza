@@ -1,0 +1,24 @@
+{
+  "name": "ahorranza",
+  "version": "1.0.0",
+  "description": "Segunda entrega CoderHouse 💻 📱",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/main.scss  css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicaBergalli/Ahorranza.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MicaBergalli/Ahorranza/issues"
+  },
+  "homepage": "https://github.com/MicaBergalli/Ahorranza#readme",
+  "dependencies": {
+    "sass": "^1.63.6"
+  }
+}

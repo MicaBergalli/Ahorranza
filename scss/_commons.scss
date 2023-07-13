@@ -1,0 +1,54 @@
+@import "_vars";
+@import "_mixins";
+
+//selectores comunes a todo el proyecto
+main {
+  padding: $padding-content;
+  margin-bottom: $footer-height;
+}
+
+a {
+  text-decoration: none;
+  color: $negro;
+}
+
+body {
+  background-color: $background-body;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: medium;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+}
+
+.footer {
+  height: $footer-height;
+  background-color: $background-footer;
+  padding: $padding-content;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  img {
+    max-height: 25px;
+  }
+}
+
+.texto-azul {
+  color: $azul;
+  font-size: $fs-m;
+}
+
+.navbar-toggler {
+  border: none !important;
+  &:focus {
+    box-shadow: none !important;
+  }
+}

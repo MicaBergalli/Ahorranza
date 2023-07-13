@@ -1,0 +1,33 @@
+@import "_vars";
+@import "_mixins";
+
+.red-social {
+  height: 50px;
+  margin-right: 5px;
+}
+
+.texto-azul {
+  color: $azul;
+  font-size: $fs-m;
+}
+
+.ahorro {
+  font-size: $fs-m;
+  color: $gris;
+}
+
+.gasto {
+  flex-basis: 30%;
+  @include center-column;
+
+  & .gasto__foto {
+    height: 60px;
+  }
+
+  & .gastos {
+    margin-top: 80px;
+  }
+}
+.funcio__foto {
+  height: 60px;
+}

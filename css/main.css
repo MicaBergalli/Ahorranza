@@ -1,0 +1,224 @@
+.sobre {
+  font-size: x-large;
+}
+
+.subtitulo {
+  font-size: medium;
+  color: rgb(128, 128, 128);
+}
+
+.nuestro {
+  font-size: x-large;
+}
+
+.equipo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: medium;
+}
+
+.miembro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: medium;
+}
+.miembro__foto {
+  height: 180px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+}
+
+.texto-azul {
+  color: rgb(28, 95, 220);
+  font-size: medium;
+}
+
+.ahorro {
+  font-size: medium;
+  color: rgb(128, 128, 128);
+}
+
+.gasto {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gasto .gasto__foto {
+  height: 60px;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+}
+
+main {
+  padding: 10px 25px;
+  margin-bottom: 74px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+body {
+  background-color: rgb(255, 250, 250);
+  margin: 0;
+  font-family: sans-serif;
+  font-size: medium;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+}
+
+.footer {
+  height: 74px;
+  background-color: rgb(217, 217, 217);
+  padding: 10px 25px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer img {
+  max-height: 25px;
+}
+
+.texto-azul {
+  color: rgb(28, 95, 220);
+  font-size: medium;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.red-social {
+  height: 50px;
+  margin-right: 5px;
+}
+
+.texto-azul {
+  color: rgb(28, 95, 220);
+  font-size: medium;
+}
+
+.ahorro {
+  font-size: medium;
+  color: rgb(128, 128, 128);
+}
+
+.gasto {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gasto .gasto__foto {
+  height: 60px;
+}
+.gasto .gastos {
+  margin-top: 80px;
+}
+
+.funcio__foto {
+  height: 60px;
+}
+
+.texto-azul {
+  color: rgb(28, 95, 220);
+  font-size: medium;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.sobre {
+  font-size: x-large;
+}
+
+.testimonio {
+  font-size: medium;
+  color: rgb(128, 128, 128);
+}
+
+.gastos {
+  margin-top: 80px;
+}
+
+.red-social {
+  height: 50px;
+  margin-right: 5px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 0.5;
+  gap: 16px;
+}
+.info--texto {
+  display: flex;
+  flex-direction: column;
+  font-size: medium;
+}
+
+.mock-up {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.mock-up--image {
+  display: flex;
+  flex-direction: column;
+}
+
+.caracteristicas__lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.caracteristicas__lista li {
+  justify-content: center;
+  flex: 1 0 41%;
+  height: 100px;
+}
+.caracteristicas__titulo {
+  color: rgb(28, 95, 220);
+  font-size: medium;
+}
+
+@media (min-width: 480px) {
+  .mock-up {
+    flex-direction: row;
+  }
+}
+.icono {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 40px;
+  margin-top: 90px;
+}
+
+/*# sourceMappingURL=main.css.map */

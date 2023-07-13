@@ -1,0 +1,63 @@
+@import "_vars";
+@import "_mixins";
+
+.red-social {
+  height: 50px;
+  margin-right: 5px;
+}
+
+.info {
+  @include center-column;
+  justify-content: center;
+  flex: 0.5;
+  gap: $gap-size;
+
+  &--texto {
+    display: flex;
+    flex-direction: column;
+    font-size: $fs-m;
+  }
+}
+
+.mock-up {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  &--image {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.caracteristicas {
+  &__lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $gap-size;
+
+    li {
+      justify-content: center;
+      flex: 1 0 41%;
+      height: 100px;
+    }
+  }
+
+  &__titulo {
+    color: $azul;
+    font-size: $fs-m;
+  }
+}
+
+@media (min-width: 480px) {
+  .mock-up {
+    flex-direction: row;
+  }
+}
+
+.icono {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 40px;
+  margin-top: 90px;
+}

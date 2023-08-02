@@ -15,6 +15,6 @@ Link repositorio: https://github.com/MicaBergalli/Ahorranza.git
 
 Link page: https://micabergalli.github.io/Ahorranza/
 
-link servidor: https://ahorranza.netlify.app/
+Link servidor: https://ahorranza.netlify.app/
 
 Link figma: https://www.figma.com/file/5V9eA1d232npmS9Y1DGbcr/Untitled?type=design&node-id=0%3A1&mode=design&t=Bffci9Pe0R3zJwdU-1
